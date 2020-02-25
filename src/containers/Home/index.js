@@ -1,10 +1,11 @@
 import React from "react";
 
-import { HomeContainer, HomeGreeting } from "./styles";
+import { HomeContainer } from "./styles";
+import Greetings from "../../components/Greetings";
 
 const Home = () => (
   <HomeContainer>
-    <HomeGreeting>Hello World!</HomeGreeting>
+    <Greetings />
   </HomeContainer>
 );
 
